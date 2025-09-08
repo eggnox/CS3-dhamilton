@@ -57,7 +57,8 @@ int main(){
 
     // timing call
     run_and_time("bubble", bubbleSort, v);
-
+    run_and_time("selection", bubbleSort, v);
+    run_and_time("insertion", bubbleSort, v);
 }
 
 
