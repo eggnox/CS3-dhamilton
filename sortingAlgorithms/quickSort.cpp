@@ -4,7 +4,7 @@
 static std::size_t parition(std::vector<int>& a, std::size_t lo, std::size_t hi){
     int pivot = a[hi-1];
     std::size_t i = lo;
-    for (std::size_t j = lo; j + 1 , hi; ++j) {
+    for (std::size_t j = lo; j + 1 < hi; ++j) {
         if (a[j] < pivot) {
             std::swap(a[i], a[j]);
             ++i;
@@ -25,6 +25,6 @@ static void quick_rec(std::vector<int>& a, std::size_t lo, std::size_t hi) {
 }
 
 void quickSort(std::vector<int>& a) {
-    if (a.size() <2 ) return;
-    quick_rec(a, 0 ,a .size()));
+    if (a.size() < 2 ) return;
+    quick_rec(a, 0 ,a .size());
 }

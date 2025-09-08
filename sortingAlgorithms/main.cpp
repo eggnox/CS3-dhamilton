@@ -57,8 +57,11 @@ int main(){
 
     // timing call
     run_and_time("bubble", bubbleSort, v);
-    run_and_time("selection", bubbleSort, v);
-    run_and_time("insertion", bubbleSort, v);
+    run_and_time("selection", selectionSort, v);
+    run_and_time("insertion", insertionSort, v);
+    run_and_time("merge", mergeSort, v);
+    run_and_time("quick", quickSort, v);
+    run_and_time("std::sort", [](auto& a){ std::sort(a. begin(), a.end()); }, v);
 }
 
 
