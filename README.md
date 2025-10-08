@@ -19,7 +19,7 @@ ________________________________________________________________________________
 | Description: | Use sorting algorithms to test run time |
 | Due Date: | 9/8/2025 |
 | Status: | Complete |
-| Location: |  |
+| Location: |  https://github.com/eggnox/CS3-dhamilton/blob/main/sortingAlgorithms/main.cpp|
 | Notes: I accidentally wrote all this code in my CS2 folder I finally realized this today | 
  Self grade: 90%
  |
