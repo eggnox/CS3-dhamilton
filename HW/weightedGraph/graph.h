@@ -11,6 +11,8 @@ class graph {
     std::vector<std::string> idToName;
     std::unordered_map<std::string,int>  nameToId;
     std::vector<std::vector<std::pair<int,int>>> adj;
+    void dfsUtil(int u, std::vector<bool>& visited) const;
+
 
     public:
     int addVertex(const std::string& name);
@@ -19,5 +21,7 @@ class graph {
     void printAdjacency() const;
     void bfs(const std::string & start) const;
     void dfs(const std::string & start) const;
+
+    
 };
 

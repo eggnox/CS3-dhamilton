@@ -1,0 +1,19 @@
+Cardassian Union: (Bajoran,14)(Romulan Empire,42)
+Romulan Empire: (Borg,33)(Cardassian Union,42)(United Federation of Planets,53)
+Borg: (Tholian Assembly,10)(Romulan Empire,33)(Klingon Empire,41)
+Klingon Empire: (Borg,41)(United Federation of Planets,87)
+United Federation of Planets: (Bajoran,22)(Romulan Empire,53)(Klingon Empire,87)
+Bajoran: (Cardassian Union,14)(United Federation of Planets,22)(Tholian Assembly,80)
+Tholian Assembly: (Borg,10)(Bajoran,80)
+
+Vertices:
+ - Cardassian Union
+ - Romulan Empire
+ - Borg
+ - Klingon Empire
+ - United Federation of Planets
+ - Bajoran
+ - Tholian Assembly
+
+Start for BFS: Romulan Empire Borg Cardassian Union United Federation of Planets Tholian Assembly Klingon Empire Bajoran 
+Start for DFS: Tholian Assembly Borg Romulan Empire Cardassian Union Bajoran United Federation of Planets Klingon Empire 
