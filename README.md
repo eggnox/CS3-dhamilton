@@ -30,8 +30,8 @@ ________________________________________________________________________________
 | Name: | Weighted graph |
 | Description: | A point distance calculator which stores each point and points to nearest point |
 | Due Date: | 9/22/2025 |
-| Status: | InComplete |
-| Location: | |
+| Status: | Complete |
+| Location: |https://github.com/eggnox/CS3-dhamilton/blob/main/HW/weightedGraph/main.cpp |
 | Notes: | 
- Self grade: 0%
- |
+ Self grade: 90%
+ needs more comments|
