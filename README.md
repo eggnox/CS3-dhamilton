@@ -35,3 +35,15 @@ ________________________________________________________________________________
 | Notes: | 
  Self grade: 90%
  needs more comments|
+
+## HW #4
+| Name | Value | 
+| --- | --- |
+| Name: | Huffman Coding |
+| Description: |  |
+| Due Date: | 11/12/2025 |
+| Status: | Incomplete |
+| Location: | |
+| Notes: | 
+ Self grade: 0%
+ |
