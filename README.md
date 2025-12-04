@@ -43,7 +43,7 @@ ________________________________________________________________________________
 | Description: |  |
 | Due Date: | 11/12/2025 |
 | Status: | complete |
-| Location: | |
+| Location: |https://github.com/eggnox/CS3-dhamilton/tree/main/HW/huffmanCoding |
 | Notes: late + | 
  Self grade: 85%
  |
