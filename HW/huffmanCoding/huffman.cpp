@@ -68,9 +68,29 @@ void Huffman::build(const std::string& text) {
 }
 
 void Huffman::buildCodes(Node* node, const std::string& prefix) {
+    if (!node) return;
+
+    // leaf node
+    if (!node->left && !node->right) {
+        codes[node->ch] = prefix.empty() ? "0" : prefix;
+        return;
+    }
+
+    buildCodes(node->left,  prefix + "0");
+    buildCodes(node->right, prefix + "1");
 }
 
 std::string Huffman::encode(const std::string& text) const {
+    std::string bits;
+    for (char c : text) {
+        auto it = codes.find(c);
+        if (it != codes.end()) {
+            bits += it->second;
+        }
+        // If a char isn't in codes 
+        // skip it.
+    }
+    return bits;
 }
 
 std::string Huffman::decode(const std::string& bits) const {
