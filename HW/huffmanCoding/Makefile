@@ -3,17 +3,17 @@ CXX      = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 
 PROGRAM  = huffman
-OBJS     = main.o Huffman.o
+OBJS     = main.o huffman.o
 
 all: $(PROGRAM)
 
 $(PROGRAM): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
 
-main.o: main.cpp Huffman.h
+main.o: main.cpp huffman.h
 	$(CXX) $(CXXFLAGS) -c main.cpp
 
-Huffman.o: Huffman.cpp huffman.h
+huffman.o: huffman.cpp huffman.h
 	$(CXX) $(CXXFLAGS) -c huffman.cpp
 
 clean:

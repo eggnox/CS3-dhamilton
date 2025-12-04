@@ -42,8 +42,8 @@ ________________________________________________________________________________
 | Name: | Huffman Coding |
 | Description: |  |
 | Due Date: | 11/12/2025 |
-| Status: | Incomplete |
+| Status: | complete |
 | Location: | |
-| Notes: | 
- Self grade: 0%
+| Notes: late + | 
+ Self grade: 85%
  |
